@@ -47,6 +47,8 @@ mkdir /data_processing/
 mkdir /data_processing/logs/
 mkdir /data_processing/scripts/
 ```
+![image](https://user-images.githubusercontent.com/13857701/235521844-03b9b798-beed-47c8-bcce-40112865ff25.png)
+
 Estrutura de pastas dentro do HDFS:
 ```
 hadoop fs -mkdir /atividade_1/
