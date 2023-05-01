@@ -43,25 +43,17 @@ Escolhemos dois Datasets:
 -------------------------------------------
 Estrutura de pastas do datanode:
 ```
-
-mkdir fiap/
-mkdir fiap/dps/
-mkdir fiap/dps/atividade_1/
-mkdir fiap/dps/atividade_1/scripts/
-mkdir fiap/dps/atividade_1/scripts/data_processing/
-mkdir fiap/dps/atividade_1/scripts/shell/
-mkdir fiap/dps/atividade_1/scripts/data_processing/logs/
-
+mkdir /data_processing/
+mkdir /data_processing/logs/
+mkdir /atividade_1/scripts/
 ```
 Estrutura de pastas dentro do HDFS:
 ```
-hadoop fs -mkdir /fiap/
-hadoop fs -mkdir /fiap/dps/
-hadoop fs -mkdir /fiap/dps/atividade_1/
-hadoop fs -mkdir /fiap/dps/atividade_1/COVID_19/
-hadoop fs -mkdir /fiap/dps/atividade_1/C/Water_Quality/
-hadoop fs -mkdir /fiap/dps/atividade_1/Water_Quality/bkpOVID_19/bkp
-hadoop fs -mkdir /fiap/dps/atividade_1
+hadoop fs -mkdir /atividade_1/
+hadoop fs -mkdir /atividade_1/COVID_19/
+hadoop fs -mkdir /atividade_1/COVID_19/bkp/
+hadoop fs -mkdir /atividade_1/Water_Quality/
+hadoop fs -mkdir /atividade_1/Water_Quality/bkp/
 ```
 ![image](https://user-images.githubusercontent.com/13857701/235383811-e817ee56-da65-4fa1-be72-81c76478e8d9.png)
 
