@@ -45,7 +45,7 @@ Estrutura de pastas do datanode:
 ```
 mkdir /data_processing/
 mkdir /data_processing/logs/
-mkdir /atividade_1/scripts/
+mkdir /data_processing/scripts/
 ```
 Estrutura de pastas dentro do HDFS:
 ```
